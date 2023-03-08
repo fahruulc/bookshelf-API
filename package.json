@@ -1,0 +1,17 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "Submission Dicoding",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "Fachrur Rizhky Al Fadillah",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^4.0.1"
+  }
+}
